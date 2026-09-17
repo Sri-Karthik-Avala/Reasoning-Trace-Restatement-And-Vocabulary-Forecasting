@@ -1,0 +1,34 @@
+pip_system_certs: ERROR: could not inject truststore: [ASN1: NOT_ENOUGH_DATA] not enough data (_ssl.c:4030)
+C:\Users\srika\anaconda3\envs\max\lib\site-packages\torch\nn\modules\transformer.py:385: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+[seed0] epoch 1 nll 9.293 lr 1.19e-03 elapsed 420s
+[seed0] epoch 2 nll 8.762 lr 1.16e-03 elapsed 747s
+[seed0] epoch 3 nll 8.031 lr 1.09e-03 elapsed 1175s
+[seed0] epoch 4 nll 8.244 lr 1.02e-03 elapsed 1519s
+[seed0] epoch 5 nll 10.522 lr 8.97e-04 elapsed 1999s
+[seed0] epoch 6 nll 8.384 lr 7.93e-04 elapsed 2355s
+[seed0] epoch 7 nll 8.761 lr 6.73e-04 elapsed 2746s
+[seed0] epoch 8 nll 12.075 lr 5.48e-04 elapsed 3139s
+[seed0] epoch 9 nll 7.895 lr 4.71e-04 elapsed 3383s
+[seed0] epoch 10 nll 7.419 lr 4.34e-04 elapsed 3508s
+[seed0] epoch 11 nll 9.251 lr 3.83e-04 elapsed 3676s
+[seed0] epoch 12 nll 8.254 lr 3.72e-04 elapsed 3712s
+[seed0] epoch 13 nll 9.189 lr 3.63e-04 elapsed 3744s
+[seed0] epoch 14 nll 9.025 lr 3.53e-04 elapsed 3779s
+[seed0] epoch 15 nll 10.297 lr 3.43e-04 elapsed 3813s
+[seed0] epoch 16 nll 8.298 lr 3.34e-04 elapsed 3846s
+[seed0] epoch 17 nll 7.270 lr 3.21e-04 elapsed 3893s
+[seed0] epoch 18 nll 8.158 lr 2.90e-04 elapsed 4007s
+[seed0] epoch 19 nll 7.801 lr 2.63e-04 elapsed 4109s
+[seed0] epoch 20 nll 9.561 lr 2.36e-04 elapsed 4213s
+[seed0] epoch 21 nll 8.743 lr 2.11e-04 elapsed 4316s
+[seed0] epoch 22 nll 8.934 lr 1.87e-04 elapsed 4420s
+[seed0] epoch 23 nll 10.741 lr 1.63e-04 elapsed 4528s
+[seed0] epoch 24 nll 8.876 lr 1.41e-04 elapsed 4635s
+[seed0] epoch 25 nll 6.700 lr 1.23e-04 elapsed 4733s
+[seed0] epoch 26 nll 11.800 lr 1.05e-04 elapsed 4828s
+[seed0] epoch 27 nll 9.261 lr 8.91e-05 elapsed 4926s
+[seed0] epoch 28 nll 6.937 lr 7.47e-05 elapsed 5022s
+[seed0] epoch 29 nll 6.354 lr 6.08e-05 elapsed 5125s
+[seed0] epoch 30 nll 8.409 lr 4.81e-05 elapsed 5230s
+[seed0] epoch 31 nll 8.013 lr 3.29e-05 elapsed 5384s

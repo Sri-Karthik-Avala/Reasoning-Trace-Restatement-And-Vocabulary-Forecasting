@@ -1,0 +1,19 @@
+pip_system_certs: ERROR: could not inject truststore: [ASN1: NOT_ENOUGH_DATA] not enough data (_ssl.c:4030)
+C:\Users\srika\anaconda3\envs\max\lib\site-packages\torch\nn\modules\transformer.py:385: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+[seed0] first-step nll 8.342 (uniform ref 8.12)
+[seed0] epoch 1 nll 5.555 val nan lr 9.65e-04 elapsed 139s
+[seed0] epoch 2 nll 4.257 val 4.007 lr 6.34e-04 elapsed 223s
+[seed0] epoch 3 nll 3.818 val nan lr 4.47e-04 elapsed 265s
+[seed0] epoch 4 nll 3.557 val 3.756 lr 2.69e-04 elapsed 312s
+[seed0] epoch 5 nll 3.382 val nan lr 1.33e-04 elapsed 353s
+[seed0] epoch 6 nll 3.278 val 3.723 lr 4.79e-05 elapsed 396s
+[seed0] epoch 7 nll 3.228 val nan lr 1.07e-05 elapsed 437s
+[seed0] epoch 8 nll 3.266 val 3.720 lr 1.00e-05 elapsed 445s
+[seed0] keeping final epoch 8 val 3.720 (best 3.720 ep8)
+model0 trained 8 epochs at 447s
+test decoded t=570s
+baseline submission secured (250, 3) t=570s
+tuning skipped: RuntimeError('no time for tuning')
+dump failed: NameError("name 'vp' is not defined")
+wrote working\submission_check.csv (250, 3) total 570s

@@ -1,0 +1,63 @@
+pip_system_certs: ERROR: could not inject truststore: [ASN1: NOT_ENOUGH_DATA] not enough data (_ssl.c:4030)
+C:\Users\srika\anaconda3\envs\max\lib\site-packages\torch\nn\modules\transformer.py:385: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+[seed0] first-step nll 8.342 (uniform ref 8.12)
+[seed0] epoch 1 nll 5.556 lr 1.20e-03 elapsed 59s
+[seed0] epoch 2 nll 4.253 lr 1.20e-03 elapsed 125s
+[seed0] epoch 3 nll 3.783 lr 1.19e-03 elapsed 198s
+[seed0] epoch 4 nll 3.460 lr 1.18e-03 elapsed 302s
+[seed0] epoch 5 nll 3.190 lr 1.15e-03 elapsed 480s
+[seed0] epoch 6 nll 2.950 lr 1.11e-03 elapsed 623s
+[seed0] epoch 7 nll 2.738 lr 1.08e-03 elapsed 720s
+[seed0] epoch 8 nll 2.544 lr 1.04e-03 elapsed 841s
+[seed0] epoch 9 nll 2.359 lr 9.73e-04 elapsed 997s
+[seed0] epoch 10 nll 2.181 lr 9.19e-04 elapsed 1117s
+[seed0] epoch 11 nll 2.018 lr 8.76e-04 elapsed 1208s
+[seed0] epoch 12 nll 1.873 lr 8.22e-04 elapsed 1318s
+[seed0] epoch 13 nll 1.734 lr 7.60e-04 elapsed 1436s
+[seed0] epoch 14 nll 1.605 lr 7.31e-04 elapsed 1492s
+[seed0] epoch 15 nll 1.497 lr 6.95e-04 elapsed 1559s
+[seed0] epoch 16 nll 1.397 lr 6.62e-04 elapsed 1619s
+[seed0] epoch 17 nll 1.302 lr 6.33e-04 elapsed 1674s
+[seed0] epoch 18 nll 1.215 lr 6.00e-04 elapsed 1735s
+[seed0] epoch 19 nll 1.140 lr 5.70e-04 elapsed 1789s
+[seed0] epoch 20 nll 1.068 lr 5.31e-04 elapsed 1863s
+[seed0] epoch 21 nll 0.995 lr 4.55e-04 elapsed 2005s
+[seed0] epoch 22 nll 0.922 lr 3.97e-04 elapsed 2117s
+[seed0] epoch 23 nll 0.859 lr 3.55e-04 elapsed 2201s
+[seed0] epoch 24 nll 0.806 lr 3.16e-04 elapsed 2279s
+[seed0] epoch 25 nll 0.760 lr 2.86e-04 elapsed 2344s
+[seed0] epoch 26 nll 0.722 lr 2.55e-04 elapsed 2413s
+[seed0] epoch 27 nll 0.686 lr 2.27e-04 elapsed 2479s
+[seed0] epoch 28 nll 0.661 lr 2.02e-04 elapsed 2540s
+[seed0] epoch 29 nll 0.634 lr 1.79e-04 elapsed 2599s
+[seed0] epoch 30 nll 0.612 lr 1.56e-04 elapsed 2661s
+[seed0] epoch 31 nll 0.589 lr 1.35e-04 elapsed 2722s
+[seed0] epoch 32 nll 0.568 lr 1.14e-04 elapsed 2789s
+[seed0] epoch 33 nll 0.556 lr 9.54e-05 elapsed 2851s
+[seed0] epoch 34 nll 0.537 lr 7.98e-05 elapsed 2909s
+[seed0] epoch 35 nll 0.527 lr 6.62e-05 elapsed 2965s
+[seed0] epoch 36 nll 0.518 lr 5.24e-05 elapsed 3029s
+[seed0] epoch 37 nll 0.507 lr 4.32e-05 elapsed 3077s
+[seed0] epoch 38 nll 0.510 lr 3.73e-05 elapsed 3111s
+[seed0] epoch 39 nll 0.500 lr 3.18e-05 elapsed 3147s
+[seed0] epoch 40 nll 0.493 lr 2.39e-05 elapsed 3208s
+[seed0] epoch 41 nll 0.489 lr 1.80e-05 elapsed 3265s
+[seed0] epoch 42 nll 0.483 lr 1.39e-05 elapsed 3319s
+[seed0] epoch 43 nll 0.486 lr 1.11e-05 elapsed 3377s
+[seed0] epoch 44 nll 0.482 lr 1.00e-05 elapsed 3431s
+[seed0] epoch 45 nll 0.487 lr 1.00e-05 elapsed 3445s
+model0 trained 45 epochs at 3445s
+test decoded t=3579s
+baseline submission secured (250, 3) t=3580s
+holdout decoded t=3717s
+holdout G=0.3138 cfg=(0.0, False, 0) predlen=37.6 t=3725s
+  PRED: im reviewing the request to pull information from a linkedin company page ill use the extraction tool with the provided url relying on its default settings to obtain the raw output
+  REF : im reviewing the request to pull information from a linkedin company page i identified the target url and confirmed the appropriate extraction method im preparing the tool call with the correct parameters to retrieve the public company details
+  PRED: i reviewed the upcoming azure events from the listing tool returned a azure events include the title after fetching the data i will present these actions in a clear and results the user
+  REF : i organized the upcoming azure events into a clear list including titles descriptions and utc start and end times this format should help the user plan infrastructure or development work around maintenance and upgrades the results are presented as received with no further action required
+  PRED: okay i reviewed the users request for the provided text and checked the available tools i realized that i cannot access entities and checked whether the provided tools could be suitable for this task i concluded that i cannot fulfill the request and need to inform the user that i cannot execute the current
+  REF : im checking the available tools to see if the neuronet nlp api is supported i realized it isnt listed among the provided functions so i need to inform the user that i cannot fulfill their request i considered alternatives but none match the specific api they asked for so i will clearly explain the limitation
+holdout V=0.2005 shrink=1.15 alpha=0.1 t=3727s
+holdout TSS=0.2685
+wrote working\submission.csv (250, 3) total 3727s

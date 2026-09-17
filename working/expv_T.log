@@ -1,0 +1,50 @@
+pip_system_certs: ERROR: could not inject truststore: [ASN1: NOT_ENOUGH_DATA] not enough data (_ssl.c:4030)
+MODE=T vocab=1572 recall_ceiling_on_T=0.8905
+  fold0 147s
+  fold1 302s
+  fold2 462s
+
+--- prior-only baseline ---
+  prior adaptive : 0.1255
+  prior fixed k=10: 0.1206
+  prior fixed k=13: 0.1245
+  prior fixed k=16: 0.1253
+
+--- model ---
+  adaptive-k     : 0.1565
+  fixed k= 6     : 0.1595
+  fixed k= 8     : 0.1734
+  fixed k=10     : 0.1794
+  fixed k=12     : 0.1836
+  fixed k=13     : 0.1855
+  fixed k=14     : 0.1859
+  fixed k=16     : 0.1852
+  fixed k=18     : 0.1830
+  fixed k=20     : 0.1821
+  fixed k=24     : 0.1777
+
+--- prob calibration (power) + adaptive ---
+  power 0.5: 0.1795
+  power 0.7: 0.1835
+  power 1.0: 0.1565
+  power 1.4: 0.1268
+  power 2.0: 0.1055
+
+--- shrink * adaptive ---
+  shrink 0.7: 0.1468
+  shrink 0.85: 0.1528
+  shrink 1.0: 0.1565
+  shrink 1.15: 0.1603
+  shrink 1.3: 0.1625
+  shrink 1.5: 0.1666
+  shrink 1.8: 0.1712
+
+--- blend with prior ---
+  blend 0.0: 0.1565
+  blend 0.1: 0.1621
+  blend 0.2: 0.1687
+  blend 0.35: 0.1751
+  blend 0.5: 0.1818
+
+BEST: fixed k=14 = 0.1859   (multitask head in solution.py gave 0.2005)
+total 472 s

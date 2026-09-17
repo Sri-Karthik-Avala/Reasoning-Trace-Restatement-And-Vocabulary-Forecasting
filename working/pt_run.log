@@ -1,0 +1,7 @@
+pip_system_certs: ERROR: could not inject truststore: [ASN1: NOT_ENOUGH_DATA] not enough data (_ssl.c:4030)
+[pt] facebook/bart-base 139M t=26s
+[pt] first-step ce 4.079
+[pt] epoch 1 ce 3.703 lr 2.33e-05 t=154s
+[pt] test decoded t=779s
+[pt] baseline secured (250, 3) t=779s
+wrote working\submission_pt.csv (250, 3) total 779s

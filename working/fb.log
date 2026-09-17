@@ -1,0 +1,8 @@
+pip_system_certs: ERROR: could not inject truststore: [ASN1: NOT_ENOUGH_DATA] not enough data (_ssl.c:4030)
+C:\Users\srika\anaconda3\envs\max\lib\site-packages\torch\nn\modules\transformer.py:385: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+model0 trained 0 epochs at 11s
+test decoded t=158s
+baseline submission secured (250, 3) t=158s
+tuning skipped: RuntimeError('no time for tuning')
+wrote working\_fb.csv (250, 3) total 158s
